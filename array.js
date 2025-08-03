@@ -53,3 +53,31 @@ myarr.sort((a,b) => a - b);
 
 myarr1 = [434, 54, 546, 6555]
 myarr.sort((a, b) = a - b );
+
+myarr = [34444444, 5, 656, 6776]
+let str = myarr.join(" , ");
+console.log(str);
+console.log(typeof str);
+
+let myname = "deepak singh bhainsora"
+let arr = myname.join(" , ");
+console.log(arr);
+console.log(typeof arr);
+
+let arr1 = [323, 43, 4, 4, 6 , 44444, 5]
+let max = Math.max(...arr1);
+console.log(max);
+
+
+let arr1 = [23, 4, 54, 1, 453, 1234]
+let min = Math.min(...arr1)
+console.log(min);
+
+let arr1 = [23, 434, 54, 645]
+let arr2 = [34, 54, 634, 545]
+let arr3 = arr1 + arr2;
+let arr4 = [arr3]
+console.log(arr4);
+
+
+
