@@ -47,3 +47,23 @@ let string2 = "singh"
 let string3 = "bhainsora"
 let string4 = string + string2 + string3;
 console.log(string4);
+
+let string5 = "jhe"
+let string6 = "jkjff"
+let string9 = string5 + string6 + "34";
+console.log(string9);
+
+let an = 88;
+let bn = 23;
+console.log(b);
+console.log(a+b);
+console.log(a*b);
+console.log(a/b);
+
+let name = "Deepak"
+let age = " 23"
+let hometown = "Uttarakhand"
+console.log();
+
+
+
