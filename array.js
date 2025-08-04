@@ -79,5 +79,12 @@ let arr3 = arr1 + arr2;
 let arr4 = [arr3]
 console.log(arr4);
 
+let me = [35, 54, 56, 67]
+let my = [23, 32, 323, 323]
+let mn = [...me, ...my];
+console.log(mn);
+mn.push(34);
+console.log(mn);
+
 
 
