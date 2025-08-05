@@ -1,16 +1,16 @@
-// let a= {
-//     name : "deepak",
-//     fjkf : "fjkjfkdfkj",
-//     age : 20,
-//     location : "Haldwani"
-// }
-// console.log(a.name);
-// console.log(a.fjkf);
-// console.log(typeof a.name);
+let a= {
+    name : "deepak",
+    fjkf : "fjkjfkdfkj",
+    age : 20,
+    location : "Haldwani"
+}
+console.log(a.name);
+console.log(a.fjkf);
+console.log(typeof a.name);
 
-// a.name = "bhainsora"
-// Object.freeze(a)
-// a.name = "singh"
+a.name = "bhainsora"
+Object.freeze(a)
+a.name = "singh"
 
 let introdution = {
     name : "Deepak Singh Bhaisora",
@@ -23,4 +23,10 @@ console.log(typeof introdution.name);
 
 introdution.name = "singhbhainsora"
 console.log("introduction.name");
+
+introdution.greeting = function(){
+    console.log("hello lkjdfsa");
+    
+}
+console.log(introdution.greeting);
 
