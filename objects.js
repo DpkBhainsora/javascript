@@ -28,5 +28,5 @@ introdution.greeting = function(){
     console.log("hello lkjdfsa");
     
 }
-console.log(introdution.greeting);
+console.log(introdution.greeting());
 
