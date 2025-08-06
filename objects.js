@@ -45,15 +45,25 @@
 // console.log(data.fullname.firstname);
 // console.log(data.fullname());
  
-let arr = {
-    id : "deepak",
-    re : "singh"
-}
+// let arr = {
+//     id : "deepak",
+//     re : "singh"
+// }
 
-let arr1 = {
-    id : "deepak",
-    if : "singh"
-}
+// let arr1 = {
+//     id : "deepak",
+//     if : "singh"
+// }
 
-let arr3 = Object.assign({}, arr1 , arr2)
-console.log(arr3);
+// let arr3 = Object.assign({}, arr1 , arr2)
+// console.log(arr3);
+
+let obj1 = {
+    id: "jfkdjfkasjfksdj"
+}
+let obj2 = {
+    id: "dfkjf"
+
+}
+let obj3 = Object.assign({}, obj1, obj2)
+console.log(obj3);
