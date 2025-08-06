@@ -34,13 +34,26 @@
 
 // }
 
-let data = {
-    id : "12133",
-    jfjk : "jfklsdf",
-    fullname : {
-        firstname : "deepak",
-        lastname : "bhainsora"
-    }
+// let data = {
+//     id : "12133",
+//     jfjk : "jfklsdf",
+//     fullname : {
+//         firstname : "deepak",
+//         lastname : "bhainsora"
+//     }
+// }
+// console.log(data.fullname.firstname);
+// console.log(data.fullname());
+ 
+let arr = {
+    id : "deepak",
+    re : "singh"
 }
-console.log(data.fullname.firstname);
-console.log(data.fullname());
+
+let arr1 = {
+    id : "deepak",
+    if : "singh"
+}
+
+let arr3 = Object.assign({}, arr1 , arr2)
+console.log(arr3);
