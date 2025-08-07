@@ -58,12 +58,20 @@
 // let arr3 = Object.assign({}, arr1 , arr2)
 // console.log(arr3);
 
-let obj1 = {
-    id: "jfkdjfkasjfksdj"
-}
-let obj2 = {
-    id: "dfkjf"
+// let obj1 = {
+//     id: "jfkdjfkasjfksdj"
+// }
+// let obj2 = {
+//     id: "dfkjf"
 
+// }
+// let obj3 = Object.assign({}, obj1, obj2)
+// console.log(obj3);
+
+let jsuser = {
+    name: "deepak",
+    age: 23,
+    email: "deepakjdkljflkj.com"
 }
-let obj3 = Object.assign({}, obj1, obj2)
-console.log(obj3);
+console.log(jsuser.email);
+console.log(jsuser["email"]);
