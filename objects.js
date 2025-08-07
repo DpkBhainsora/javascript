@@ -68,10 +68,64 @@
 // let obj3 = Object.assign({}, obj1, obj2)
 // console.log(obj3);
 
-let jsuser = {
-    name: "deepak",
-    age: 23,
-    email: "deepakjdkljflkj.com"
+// let jsuser = {
+//     name: "deepak",
+//     age: 23,
+//     email: "deepakjdkljflkj.com"
+// }
+// console.log(jsuser.email);
+// console.log(jsuser["email"]);
+
+// jsuser.name = "anupam"
+// console.log(jsuser);
+
+// singleton or constructor
+
+// let tinderuser = new Object()
+// console.log(tinderuser);
+
+// let name = {
+//     jkl: "dkfljflkjd",
+//     name1: {
+//         firstname: "deepak",
+//         middlename: "singh"
+//     }
+// }
+// console.log(name);
+// console.log(name.name1.firstname);
+
+// let obj1 = {ljksf , fsdsf}
+// let obj2 = {kjlfskf, fsdkjf}
+// let obj3 = Object.assign({}, obj1, obj2)
+// console.log(obj3);
+
+// let target = { 
+//     1: "jkfdkja",
+//     2: "kldsjfks"
+// }
+// let arr = {
+//     12: "lkjdkj", 
+//     22: "kjsdfklj"
+// }
+
+// let target1 = Object.assign(target, arr)
+// console.log(target1);
+// console.log(target == arr);
+
+// let jk = (...target, ...arr)
+// console.log(jk);
+
+
+let target = { 
+    1: "jkfdkja",
+    2: "kldsjfks"
 }
-console.log(jsuser.email);
-console.log(jsuser["email"]);
+let arr = {
+    12: "lkjdkj", 
+    22: "kjsdfklj"
+}
+
+let arrr = (...target, ...arr)
+console.log(arr);
+
+
