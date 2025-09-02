@@ -1,41 +1,53 @@
-// let a = 34;
-// var b = 34;
-// const c = 34;
-// if(true){
-//     let a = 20
-//     console.log("inner: a");
+let a = 34;
+var b = 34;
+const c = 34;
+if(true){
+    let a = 20
+    console.log("inner: a");
     
-// }
+}
 
-// console.log(a, b, c);
+console.log(a, b, c);
 
 
-// function one(){
-//     let user = "deepak"
+function one(){
+    let user = "deepak"
 
-//     function two(){
-//         let website = "youtube"
-//         console.log(user);
+    function two(){
+        let website = "youtube"
+        console.log(user);
               
 
-//     }
-//    // console.log(website);
+    }
+   // console.log(website);
     
-//     two()
-// }
-// one()
+    two()
+}
+one()
 
-// function add(num1, num2){
-//     add=  num1 + num2
+function add(num1, num2){
+    add=  num1 + num2
 
-//     function sub(num4, num3){
-//         sub= num4 - num3
-//         console.log(add);
-//         sub(4, 8)
-//     }
+    function sub(num4, num3){
+        sub= num4 - num3
+        console.log(add);
+        sub(4, 8)
+    }
     
 
-// }
-// add();
+}
+add();
+
+
+function addone(num){
+    return num + 1
+}
+ addone(5)
+
+let addtwo = function(num){
+    return num + 2
+
+}
+addtwo(5)
 
 
