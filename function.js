@@ -52,3 +52,14 @@ function aaa(getarray){
 }
 console.log(aaa(arr));
 
+function newage(age){
+    let newage = 90 - age
+    let dayleft = 365 * newage
+    let weeks = 52 * newage
+    let month = 12 * newage
+    console.log(`you have dayleft ${dayleft}, weeksleft ${weeks}, month left ${month}`);
+    
+
+}
+newage(12)
+
