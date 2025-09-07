@@ -1,0 +1,31 @@
+body{ 
+    background-color: bisque;
+}
+
+h1,h2{
+    background-color: aqua;
+    text-align: center;
+    font-size: 44px;
+    font-family: Franklin Gothic Medium;
+    animation: float 10s linear infinite;
+}
+
+.b{
+    border: 10cm;
+    shape-outside: circle();
+    
+}
+
+p{
+    background-color: dimgray;
+    font-size: medium;
+    font-family: Arial;
+    text-align: center;
+}
+
+button{
+    border: 10cm;
+    box-sizing: content-box;
+    color: chocolate;
+
+}
