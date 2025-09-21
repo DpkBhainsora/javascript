@@ -42,3 +42,14 @@ add()
     
 })
 (3, 4);
+
+
+(function add(num1, num2)
+{
+    let addd = num1 + num2;
+    console.log(addd);
+    
+    
+});
+(2,4)
+console.log(addd);
