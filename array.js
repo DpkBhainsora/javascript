@@ -110,3 +110,10 @@ console.log(b);
 
 let a= [434, 43, 54, 545]
 console.log(a.reverse);
+
+
+let arr= [1, 2, 2, 4, 5]
+let abc= [...new Set(arr)];
+console.log(abc);
+
+
