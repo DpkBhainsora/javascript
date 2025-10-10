@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <titile>
+            events
+        </titile>
+    </head>
+<body>
+    <h1> DEEPAK SINGH BHAISORA</h1>
+    <pre> My name is deeepak
+        singh bhaisora. I am from haldwani,
+        nanital.
+        # %
+        $ $
+        % &
+        % ()
+        ^ {}
+        
+    </pre>
+    <ul>
+        <li><img id="photo" src="CLG GRP.jpeg" height="300", width="400" alt="My photo"></li>
+        <li><img id="id" src="dpk.jpg" height="300", width="400"></li>
+
+    </ul>
+    
+
+</body>
+<script>
+    // document.getElementById('photo').onclick = function(){
+    //     alert("this is the event")
+    // }
+
+    // document.getElementById('photo').addEventListener('click',function() {
+    //     alert("this is the photo of freshers")
+
+    // })
+
+    // document.getElementsByTagName('id').addEventListener('click',function() {
+    //     alert("on clicked")
+        
+    // })
+
+    document.getElementById('photo').addEventListener('click',function(e){
+      
+        let removeIt = (e.target.parentNode)
+          console.log(removeIt);
+        removeIt.remove()
+        
+    })
+    
+    document.querySelector('h1').innerHTML="DPK"
+    console.log(innerHTML);
+        
+    
+       
+</script>
+        
+</html>
