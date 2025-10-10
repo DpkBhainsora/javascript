@@ -67,6 +67,25 @@ consumePromisefour()
 
 
 
+let aa = new Promise(function(resolve, reject){
+    setTimeout(function(){
+        console.log("deepak");
+        resolve()
+    })
+})
+
+aa.then(function(){
+    console.log("deepak singh bhaisora");
+    
+})
+
+for(let i=0; i=100; i++){
+    setTimeout(function(){
+     console.log(" I love you") }
+    ,3000);
+    
+    
+}
 
 
 
